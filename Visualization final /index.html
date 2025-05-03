@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>U.S. National Parks History</title>
+    <!-- Mapbox CSS -->
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <section id="intro" class="section">
+            <div class="section-inner">
+                <h1>Exploring America's National Parks</h1>
+                <p>A journey through the history of the U.S. National Parks System</p>
+            </div>
+        </section>
+
+        <section id="story" class="section">
+            <div class="sticky-map">
+                <div id="story-map"></div>
+            </div>
+
+            <div class="steps-container">
+                <div class="step" data-step="intro">
+                    <div class="step-inner">
+                        <h2>The Birth of National Parks</h2>
+                        <p>The United States National Park System began with a simple yet revolutionary idea: preserve natural wonders for future generations.</p>
+                    </div>
+                </div>
+
+                <div class="step" data-step="hayden">
+                    <div class="step-inner">
+                        <h2>The Hayden Expedition</h2>
+                        <p>In 1871, the Hayden Expedition surveyed the Yellowstone region, documenting its geysers, hot springs, and unique landscape. Their reports and photographs by William Henry Jackson convinced Congress to protect this land.</p>
+                    </div>
+                </div>
+
+                <div class="step" data-step="yellowstone">
+                    <div class="step-inner">
+                        <h2>Yellowstone: The First National Park</h2>
+                        <p>On March 1, 1872, President Ulysses S. Grant signed the Yellowstone National Park Protection Act, creating the world's first national park. This historic move set aside over 2 million acres of public land "for the benefit and enjoyment of the people."</p>
+                    </div>
+                </div>
+
+                <div class="step" data-step="timeline">
+                    <div class="step-inner">
+                        <h2>The Growth of a National Treasure</h2>
+                        <p>After Yellowstone, other natural wonders soon gained protection. Watch as the National Park System grows across America throughout the late 19th and early 20th centuries.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- New Image Carousel Section -->
+        <section id="historical-images" class="section">
+            <div class="section-inner">
+                <h2>Historical Photography</h2>
+                <p>Early photographs played a crucial role in documenting and protecting these natural treasures.</p>
+            </div>
+            
+            <div class="carousel-container">
+                <div class="carousel">
+                    <div class="carousel-item">
+                        <figure>
+                            <img src="https://www.nps.gov/features/yell/slidefile/history/jacksonphotos/Images/03116.jpg" alt="William Henry Jackson's photograph of Yellowstone">
+                            <figcaption>William Henry Jackson's photograph of Yellowstone (1871)</figcaption>
+                        </figure>
+                    </div>
+                    <div class="carousel-item">
+                        <figure>
+                            <img src="https://media.cnn.com/api/v1/images/stellar/prod/191001104840-03-ansel-adams-yosemite-story-restricted.jpg?q=w_1160,c_fill/f_webp" alt="Ansel Adams photograph of Yosemite">
+                            <figcaption>Ansel Adams photograph of Yosemite (1927)</figcaption>
+                        </figure>
+                    </div>
+                    <div class="carousel-item">
+                        <figure>
+                            <img src="https://www.democratandchronicle.com/gcdn/presto/2019/02/05/PPHX/4441b7b1-6ae0-4385-a024-d7e4ca4ece80-toledo_car_lippincott_1902.jpg?crop=926,521,x48,y188&width=660&height=372&format=pjpg&auto=webp" alt="Historic photo of Grand Canyon National Park">
+                            <figcaption>Historic view of Grand Canyon National Park (1935)</figcaption>
+                        </figure>
+                    </div>
+                    <div class="carousel-item">
+                        <figure>
+                            <img src="https://www.nps.gov/features/yell/slidefile/history/jacksonphotos/Images/03097.jpg" alt="Great Springs of Yellowstone">
+                            <figcaption>William Henry Jackson's "Marvelous Hot Springs" (1874)</figcaption>
+                        </figure>
+                    </div>
+                </div>
+                
+                <div class="carousel-controls">
+                    <button class="prev-btn">&lt;</button>
+                    <div class="carousel-dots"></div>
+                    <button class="next-btn">&gt;</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="horizontal-gallery" class="section">
+            <div class="sticky-map">
+                <div id="gallery-map"></div>
+            </div>
+            <div class="park-info-overlay">
+                <div class="park-info" id="park-info">
+                    <h3>Explore Parks Timeline</h3>
+                    <p>Scroll horizontally to discover the national parks in chronological order.</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Mapbox JS -->
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.js"></script>
+    <!-- Scrollama -->
+    <script src="https://unpkg.com/scrollama@3.2.0/build/scrollama.js"></script>
+    <!-- GSAP and ScrollTrigger -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>

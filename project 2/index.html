@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="script.js"></script>
+</head>
+<body>
+    <div>
+        <h1>
+            Hop by 
+            <span class="info-text">Alpha Acid
+                <span class="info-tooltip">Alpha acids are the main compounds in hops that contribute to beer bitterness. During the brewing process, they isomerize to create the characteristic bitter taste.</span>
+            </span>
+            /
+            <span class="info-text">Beta Acid
+                <span class="info-tooltip">Beta acids contribute to beer's preservative qualities and develop a more subtle bitterness over time. They are less soluble than alpha acids and provide longer-term bittering effects.</span>
+            </span>
+        </h1>
+    </div>
+    <div 
+    class="chart-container" style="display: flex;">
+        <svg id="chart"></svg>
+    </div>
+    
+    <div class="legend">
+        <div class="legend-item">
+            <button class="legend-btn" data-purpose="1">
+                <div class="legend-color" style="background-color: yellow"></div>
+                <span>Aroma</span>
+            </button>
+        </div>
+        <div class="legend-item">
+            <button class="legend-btn" data-purpose="2">
+                <div class="legend-color" style="background-color: blue"></div>
+                <span>Bitter</span>
+            </button>
+        </div>
+        <div class="legend-item">
+            <button class="legend-btn" data-purpose="3">
+                <div class="legend-color" style="background-color: crimson"></div>
+                <span>All Purpose</span>
+            </button>
+        </div>
+        <div><br></div>
+        <div><br></div>
+    </div>
+</body>
+</html>

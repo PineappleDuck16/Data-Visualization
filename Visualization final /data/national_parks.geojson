@@ -1,0 +1,577 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Yellowstone",
+        "year": 1872,
+        "highlight": true,
+        "description": "America's first national park, known for its wildlife and geothermal features, especially Old Faithful geyser."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-110.5885, 44.4280]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sequoia",
+        "year": 1890,
+        "highlight": true,
+        "description": "Home to giant sequoia trees, including the General Sherman Tree, the largest tree on Earth by volume."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-118.5658, 36.4864]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Yosemite",
+        "year": 1890,
+        "highlight": true,
+        "description": "Famous for its waterfalls, giant sequoias, and spectacular granite cliffs like El Capitan and Half Dome."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-119.5383, 37.8651]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mount Rainier",
+        "year": 1899,
+        "highlight": false,
+        "description": "An active volcano covered by 26 glaciers, surrounded by subalpine wildflower meadows."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-121.7269, 46.8799]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Crater Lake",
+        "year": 1902,
+        "highlight": false,
+        "description": "The deepest lake in the United States, known for its stunning blue water and clarity."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.1685, 42.9446]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Wind Cave",
+        "year": 1903,
+        "highlight": false,
+        "description": "Known for its distinctive boxwork cave formations and one of the world's longest and most complex cave systems."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-103.4815, 43.5724]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mesa Verde",
+        "year": 1906,
+        "highlight": false,
+        "description": "Preserves the cliff dwellings of the Ancestral Pueblo people, with over 4,700 archaeological sites."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-108.4876, 37.2309]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Glacier",
+        "year": 1910,
+        "highlight": true,
+        "description": "Features pristine forests, alpine meadows, rugged mountains, and spectacular lakes. Home to over 130 named lakes and 1,000 different species of plants."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-113.7871, 48.7596]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rocky Mountain",
+        "year": 1915,
+        "highlight": true,
+        "description": "Featuring majestic mountain views, alpine tundra ecosystems, and abundant wildlife across more than 415 square miles."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-105.6836, 40.3428]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Haleakalā",
+        "year": 1916,
+        "highlight": false,
+        "description": "Known for its massive dormant shield volcano crater and home to many endangered species found nowhere else on Earth."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-156.1733, 20.7204]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hawaii Volcanoes",
+        "year": 1916,
+        "highlight": false,
+        "description": "Showcases two of the world's most active volcanoes: Kīlauea and Mauna Loa, allowing visitors to witness geology in action."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-155.2946, 19.4194]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lassen Volcanic",
+        "year": 1916,
+        "highlight": false,
+        "description": "Features all four types of volcanoes (shield, composite, cinder cone, and plug dome) with hydrothermal areas that include hot springs and mud pots."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-121.4058, 40.4977]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Denali",
+        "year": 1917,
+        "highlight": true,
+        "description": "Home to North America's highest peak, Denali (20,310 feet), and six million acres of pristine wilderness with diverse wildlife."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-151.0066, 63.1148]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Grand Canyon",
+        "year": 1919,
+        "highlight": true,
+        "description": "A massive canyon carved by the Colorado River, up to 18 miles wide and a mile deep, showcasing billions of years of geological history."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-112.1401, 36.0544]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zion",
+        "year": 1919,
+        "highlight": true,
+        "description": "Known for its massive sandstone cliffs of cream, pink, and red, and its narrow slot canyons and wilderness areas."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-113.0263, 37.2982]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Acadia",
+        "year": 1919,
+        "highlight": false,
+        "description": "The first national park east of the Mississippi River, offering rocky headlands, woodland, and Atlantic shoreline."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-68.2558, 44.3385]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hot Springs",
+        "year": 1921,
+        "highlight": false,
+        "description": "Preserves 47 natural thermal springs with an average temperature of 143°F. The smallest national park by area, known for its historic bathhouses."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-93.0538, 34.5037]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bryce Canyon",
+        "year": 1928,
+        "highlight": false,
+        "description": "Famous for its unique geological structures called hoodoos, formed by frost weathering and stream erosion of sedimentary rocks."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-112.1871, 37.5930]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Grand Teton",
+        "year": 1929,
+        "highlight": true,
+        "description": "Features the majestic Teton Range, pristine lakes, and extraordinary wildlife including grizzly bears, moose, and bison."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-110.8025, 43.7904]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Carlsbad Caverns",
+        "year": 1930,
+        "highlight": false,
+        "description": "Features more than 119 limestone caves with spectacular stalactites, stalagmites, and a famous colony of hundreds of thousands of bats."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-104.5561, 32.1478]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Great Smoky Mountains",
+        "year": 1934,
+        "highlight": true,
+        "description": "America's most visited national park, renowned for its diversity of plant and animal life, ancient mountains, and remnants of Southern Appalachian culture."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-83.5369, 35.6131]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Shenandoah",
+        "year": 1935,
+        "highlight": false,
+        "description": "Known for the famous Skyline Drive with stunning vistas, waterfalls, and quiet wooded hollows along the Blue Ridge Mountains."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-78.3501, 38.4755]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Olympic",
+        "year": 1938,
+        "highlight": true,
+        "description": "Encompasses three distinct ecosystems: glacier-capped mountains, old-growth temperate rainforests, and over 70 miles of wild Pacific coastline."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-123.6663, 47.8021]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kings Canyon",
+        "year": 1940,
+        "highlight": false,
+        "description": "Features one of the deepest canyons in North America and is home to giant sequoia groves and high mountain wilderness."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-118.5551, 36.8879]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Big Bend",
+        "year": 1944,
+        "highlight": false,
+        "description": "Known for its vast expanse of Chihuahuan Desert, ancient limestone canyons carved by the Rio Grande, and isolated mountain ranges."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-103.2420, 29.2498]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Everglades",
+        "year": 1947,
+        "highlight": true,
+        "description": "The largest subtropical wilderness in the United States, protecting rare and endangered species in a vast ecosystem of wetlands and forests."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-80.9000, 25.3865]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Arches",
+        "year": 1971,
+        "highlight": true,
+        "description": "Contains over 2,000 natural stone arches, including the famous Delicate Arch, plus pinnacles, balanced rocks, and other unique geological features."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-109.5841, 38.7331]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Canyonlands",
+        "year": 1964,
+        "highlight": false,
+        "description": "A wilderness of canyons and buttes carved by the Colorado River and its tributaries, divided into four distinct districts."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-109.8783, 38.2136]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Joshua Tree",
+        "year": 1994,
+        "highlight": false,
+        "description": "Named for its distinctive Joshua trees, it straddles the Colorado and Mojave deserts with surreal geological features and stark desert landscapes."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-115.9010, 33.8734]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Death Valley",
+        "year": 1994,
+        "highlight": false,
+        "description": "The hottest, driest, and lowest national park, known for its extreme desert landscapes, salt flats, sand dunes, and mountains."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-117.0793, 36.5054]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Badlands",
+        "year": 1978,
+        "highlight": false,
+        "description": "Features dramatically eroded buttes, pinnacles, and spires amidst the largest undisturbed mixed grass prairie in the United States."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-102.3397, 43.8554]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Glacier Bay",
+        "year": 1980,
+        "highlight": false,
+        "description": "A dynamic glacial landscape with icebergs, temperate rainforest, and deep fjords, home to humpback whales, sea lions, and bald eagles."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-136.8361, 58.6658]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Voyageurs",
+        "year": 1975,
+        "highlight": false,
+        "description": "A water-based park with interconnected waterways, islands, and forests that were once traveled by French-Canadian fur traders (voyageurs)."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-92.8386, 48.4866]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Great Basin",
+        "year": 1986,
+        "highlight": false,
+        "description": "Features ancient bristlecone pine forests, limestone caves, and some of the darkest night skies in the contiguous United States."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-114.2631, 38.9300]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Petrified Forest",
+        "year": 1962,
+        "highlight": false,
+        "description": "Known for its large deposits of petrified wood, colorful badlands of the Painted Desert, archaeological sites, and historic structures."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-109.7919, 35.0662]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Channel Islands",
+        "year": 1980,
+        "highlight": false,
+        "description": "Comprises five islands and their ocean environment, preserving unique ecosystems with plants and animals found nowhere else on Earth."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-119.7210, 34.0069]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kenai Fjords",
+        "year": 1980,
+        "highlight": false,
+        "description": "Protects the Harding Icefield and its outflowing glaciers, and a fjord-rich coastline teeming with marine wildlife."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-149.6513, 59.9236]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Redwood",
+        "year": 1968,
+        "highlight": true,
+        "description": "Protects the world's tallest trees—coast redwoods that can reach over 370 feet—along with vast prairies, oak woodlands, and 40 miles of rugged coastline."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-124.0046, 41.2132]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gateway Arch",
+        "year": 2018,
+        "highlight": false,
+        "description": "The newest national park, featuring the iconic 630-foot Gateway Arch that commemorates the westward expansion of the United States."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-90.1847, 38.6270]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Indiana Dunes",
+        "year": 2019,
+        "highlight": false,
+        "description": "Features 15 miles of Lake Michigan shoreline with massive sand dunes, wetlands, prairies, and forests containing rare plant species."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-87.0524, 41.6533]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "White Sands",
+        "year": 2019,
+        "highlight": false,
+        "description": "Protects the world's largest gypsum dunefield, a stunning landscape of brilliant white sand dunes stretching across 275 square miles."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-106.3257, 32.7872]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "New River Gorge",
+        "year": 2020,
+        "highlight": false,
+        "description": "America's newest national park, preserving the New River Gorge and its surrounding Appalachian landscapes, known for whitewater rafting and rock climbing."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-81.0755, 37.9027]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Biscayne",
+        "year": 1980,
+        "highlight": false,
+        "description": "Protects a rare combination of aquamarine waters, emerald islands, and coral reefs just miles from downtown Miami, with 95% of the park being underwater."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-80.2101, 25.4824]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dry Tortugas",
+        "year": 1992,
+        "highlight": false,
+        "description": "Located 70 miles west of Key West, featuring crystal clear waters, magnificent coral reefs, and the massive 19th century Fort Jefferson."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-82.8732, 24.6285]
+      }
+    }
+  ]
+} 
